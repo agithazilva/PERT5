@@ -1,0 +1,139 @@
+html{
+    font-family: poppins;
+}
+
+.nav-logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-link{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.nav-link a{
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+.nav-btn{
+    border-color:transparent;
+    border: solid 1px black;
+    padding: 8px 12px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-bottom: solid 1px black;
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+}
+
+.tagline{
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 125px;
+}
+.tagline span{
+    font-size: 16px;
+    font-weight: 400;
+    background-color: rgb(203, 226, 233);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 100px;
+}
+
+
+.descrition{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.descrition span{
+    font-weight: 700;
+}
+
+.btn-orange{
+        background-color:orange;
+        border: transparent;
+        padding: 8px 12px;
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        border-radius: 100px;
+    }
+
+    .btn-white{
+        background-color:transparent;
+        border: orange solid 1px;
+        padding: 8px 12px;
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+        color: orange;
+        border-radius: 100px;
+        width: 100px;
+    }
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 0 32px;
+
+}
+
+.hero-bottom{
+    display: flex;
+    background-color: burlywood;
+    padding: 32px 32px;
+    justify-content: space-between;
+}
+
+.project .project-tagline{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-weight: 600px;
+}
+
+.project .project-tagline span{
+    content: white;
+}
+
+.btn-yellow{
+    background-color: orange;
+    padding: 8px 12px;
+    font-weight: 500px;
+    font-size: 14px;
+    cursor: pointer;
+    color: brown;
+    width: 100px;
+}
+
+.nav-project{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.nav-project a{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
+}
